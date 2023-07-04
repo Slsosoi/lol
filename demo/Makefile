@@ -15,7 +15,6 @@ libSupport_INSTALL_PATH = @executable_path/Frameworks
 
 libSupport_LINKAGE_TYPE = dynamic
 
-libSupport_LDFLAGS += -L./support
-libSupport_LDFLAGS += -lsupport
+ibSupport_LDFLAGS += -lsupport
 
 include $(THEOS)/makefiles/library.mk
